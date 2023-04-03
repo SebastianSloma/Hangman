@@ -36,7 +36,7 @@ type KeyboardProps = {
 	addGuessedLetter: (letter: string) => void;
 };
 
-export function Keyboard({ activeLetters, inactiveLetters, addGuessedLetter, disabled =flase }: KeyboardProps) {
+export function Keyboard({ activeLetters, inactiveLetters, addGuessedLetter, disabled =false }: KeyboardProps) {
 	return (
 		<div
 			style={{
